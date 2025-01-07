@@ -1,8 +1,9 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   compatibilityDate: '2024-04-03',
-  css: ['~/assets/css/main.css'],
   devtools: { enabled: true },
+  css: ['~/assets/css/main.css'],
+  ssr: true,
   postcss: {
     plugins: {
       tailwindcss: {},
@@ -13,5 +14,5 @@ export default defineNuxtConfig({
     compilerOptions: {
       isCustomElement: (tag) => ['lite-youtube'].includes(tag),
     },
-  }
+  },
 })
