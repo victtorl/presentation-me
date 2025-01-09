@@ -2,11 +2,10 @@
   <div >
     <HeaderBase></HeaderBase>
       <ClientOnly>
-        <div class="h-[calc(100vh-80px)] bg-orange-600">
+        <div class="pt-[80px] lg:pt-[20px]">
           <slot/>
         </div>
       </ClientOnly>
       <FooterBase />
   </div>
 </template>
-
