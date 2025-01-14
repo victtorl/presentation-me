@@ -12,6 +12,9 @@
         <h5>como SOLID, microservicios y tecnologia Cloud.</h5>
     </div> -->
     <PrimeraParte/>
+    <SliderSkills/>
 </template>
 <script setup>
+import SliderSkills from '~/components/SliderSkills.vue';
+
 </script>

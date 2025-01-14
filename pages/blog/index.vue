@@ -1,5 +1,5 @@
 <template>
-    <div class="h-screen w-full dark:bg-gray-900 pt-[60px]">
+    <div class="h-screen w-full dark:bg-gray-900 py-[60px]">
 
 <div class="w-full mx-auto py-10 px-4 md:px-8">
     <div class="max-w-2xl mx-auto text-center">

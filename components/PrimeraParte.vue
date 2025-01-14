@@ -6,35 +6,35 @@
 <template>
     <section
       id="banner-two"
-      className="relative w-full py-3 overflow-hidden bg-blue-seo pt-28"
+      class="relative w-full py-3 overflow-hidden bg-blue-seo pt-28"
     >
-      <div className="w-full max-w-[1506px] relative theme-container mx-auto grid grid-cols-6 xl:grid-cols-12 z-10">
+      <div class="w-full max-w-[1506px] relative theme-container mx-auto grid grid-cols-6 xl:grid-cols-12 z-10">
         <img
           src="/assets/images/home-two/hero-dot-bg.svg"
           alt="img"
-          className="absolute top-[75px] -left-[145px] moving-h2-hero-main-img"
+          class="absolute top-[75px] -left-[145px] moving-h2-hero-main-img"
         />
-        <div className="col-span-5 my-auto">
+        <div class="col-span-5 my-auto">
           <h1
-            className="pr-2 text-4xl font-semibold tracking-tight text-white md:text-65"
+            class="pr-2 text-4xl font-semibold tracking-tight text-white md:text-65"
             data-depth="-0.28"
           >
           Innovación, creatividad y resultados optimos.
           </h1>
-          <p className="mt-5 font-medium text-white text-18 font-inter md:mt-5">
+          <p class="mt-5 font-medium text-white text-18 font-inter md:mt-5">
             <!-- Digital marketing agency, craft compelling narratives & leverage
             cutting-edge technologies to propel brands towards -->
             Creativo enfocado en soluciones innovadoras, apasionado por 
             el codigo limpio y colaboracion efectiva en proyectos
           </p>
-          <div className="flex flex-col gap-3 mt-5 sm:flex-row sm:gap-6 md:mt-12">
+          <div class="flex flex-col gap-3 mt-5 sm:flex-row sm:gap-6 md:mt-12">
             <Link to="/pricing">
-              <div className="home-two-btn-white group">
-                <span className="relative z-10 py-1 text-base font-semibold transition-all duration-300 group-hover:text-white font-inter">
+              <div class="home-two-btn-white group">
+                <span class="relative z-10 py-1 text-base font-semibold transition-all duration-300 group-hover:text-white font-inter">
                   Get SEO Proposal
                 </span>
                 <svg
-                  className="relative z-10"
+                  class="relative z-10"
                   width="7"
                   height="12"
                   viewBox="0 0 7 12"
@@ -42,7 +42,7 @@
                   xmlns="http://www.w3.org/2000/svg"
                 >
                   <path
-                    className="transition-all duration-300 group-hover:stroke-white stroke-blue-seo"
+                    class="transition-all duration-300 group-hover:stroke-white stroke-blue-seo"
                     d="M1.10254 10.5L4.89543 6.70711C5.22877 6.37377 5.39543 6.20711 5.39543 6C5.39543 5.79289 5.22877 5.62623 4.89543 5.29289L1.10254 1.5"
                     stroke="white"
                     strokeWidth="1.5"
@@ -53,12 +53,12 @@
               </div>
             </Link>
             <Link to="/blogs">
-              <div className="home-two-btn-white-rev group">
-                <span className="text-base group-hover:text-blue-seo text-white transition-all duration-300 font-semibold font-inter relative z-10 py-0.5">
+              <div class="home-two-btn-white-rev group">
+                <span class="text-base group-hover:text-blue-seo text-white transition-all duration-300 font-semibold font-inter relative z-10 py-0.5">
                   Case Studies
                 </span>
                 <svg
-                  className="relative z-10"
+                  class="relative z-10"
                   width="7"
                   height="12"
                   viewBox="0 0 7 12"
@@ -66,7 +66,7 @@
                   xmlns="http://www.w3.org/2000/svg"
                 >
                   <path
-                    className="transition-all duration-300 group-hover:stroke-blue-seo stroke-white"
+                    class="transition-all duration-300 group-hover:stroke-blue-seo stroke-white"
                     d="M1.10254 10.5L4.89543 6.70711C5.22877 6.37377 5.39543 6.20711 5.39543 6C5.39543 5.79289 5.22877 5.62623 4.89543 5.29289L1.10254 1.5"
                     stroke="white"
                     strokeWidth="1.5"
@@ -77,12 +77,12 @@
               </div>
             </Link>
           </div>
-          <div className="flex flex-col sm:flex-row gap-4 sm:gap-[70px] mt-5 md:mt-12">
-            <div className="pr-12 py-1.5 sm:border-r-2 border-white">
-              <p className="text-white text-base leading-[30px] font-semibold">
-                Avg rating 4.8
+          <div class="flex flex-col sm:flex-row gap-4 sm:gap-[70px] mt-5 md:mt-12">
+            <div class="pr-12 py-1.5 sm:border-r-2 border-white">
+              <p class="text-white text-base leading-[30px] font-semibold">
+                Clean code
               </p>
-              <div className="flex gap-2.5 mt-4">
+              <div class="flex gap-2.5 mt-4">
                 <svg
                   width="16"
                   height="16"
@@ -145,9 +145,9 @@
                 </svg>
               </div>
             </div>
-            <div className="">
+            <!-- <div class="">
               <p
-                className="text-white text-base leading-[30px] font-semibold"
+                class="text-white text-base leading-[30px] font-semibold"
                 data-scroll-qs="scroll"
                 data-count-qs="5"
                 data-type-qs="m+ Global Customer"
@@ -155,68 +155,68 @@
               >
                 5m+ Global Customer
               </p>
-              <div className="relative flex mt-4 cursor-pointer">
+              <div class="relative flex mt-4 cursor-pointer">
                 <img
                   src="/assets/images/home-two/customer/1.webp"
                   alt=""
-                  className="w-[25px] h-[25px] object-cover rounded-full overflow-hidden hover:z-10 transition-all duration-300"
+                  class="w-[25px] h-[25px] object-cover rounded-full overflow-hidden hover:z-10 transition-all duration-300"
                 />
                 <img
                   src="/assets/images/home-two/customer/2.webp"
                   alt=""
-                  className="w-[25px] h-[25px] object-cover rounded-full overflow-hidden relative -left-1 hover:z-10 transition-all duration-300"
+                  class="w-[25px] h-[25px] object-cover rounded-full overflow-hidden relative -left-1 hover:z-10 transition-all duration-300"
                 />
                 <img
                   src="/assets/images/home-two/customer/3.webp"
                   alt=""
-                  className="w-[25px] h-[25px] object-cover rounded-full overflow-hidden relative -left-2 hover:z-10 transition-all duration-300"
+                  class="w-[25px] h-[25px] object-cover rounded-full overflow-hidden relative -left-2 hover:z-10 transition-all duration-300"
                 />
                 <img
                   src="/assets/images/home-two/customer/4.webp"
                   alt=""
-                  className="w-[25px] h-[25px] object-cover rounded-full overflow-hidden relative -left-3 hover:z-10 transition-all duration-300"
+                  class="w-[25px] h-[25px] object-cover rounded-full overflow-hidden relative -left-3 hover:z-10 transition-all duration-300"
                 />
                 <img
                   src="/assets/images/home-two/customer/5.webp"
                   alt=""
-                  className="w-[25px] h-[25px] object-cover rounded-full overflow-hidden relative -left-4 hover:z-10 transition-all duration-300"
+                  class="w-[25px] h-[25px] object-cover rounded-full overflow-hidden relative -left-4 hover:z-10 transition-all duration-300"
                 />
               </div>
-            </div>
+            </div> -->
           </div>
         </div>
 
         <!-- <img
           src="/assets/images/home-two/hero-img.webp"
           alt="img"
-          className="relative bottom-0 right-0 self-end col-span-7 2xl:-right-52 moving-h2-hero-main-img"
+          class="relative bottom-0 right-0 self-end col-span-7 2xl:-right-52 moving-h2-hero-main-img"
         /> -->
         <img
           src="/assets/images/porta/code-programing.jpg"
           alt="img"
-          className="relative bottom-10 right-0 self-end w-[711px] h-[453px] col-span-7 2xl:-right-52 moving-h2-hero-main-img"
+          class="relative bottom-10 right-0 self-end w-[711px] h-[453px] col-span-7 2xl:-right-52 moving-h2-hero-main-img"
         />
       </div>
-      <div className="rotating_circle z-0 absolute flex justify-center items-center -bottom-4 xl:-bottom-[150px] right-0 xl:-right-20 h-0 w-full xl:w-[880px] 2xl:max-w-[1250px]">
+      <div class="rotating_circle z-0 absolute flex justify-center items-center -bottom-4 xl:-bottom-[150px] right-0 xl:-right-20 h-0 w-full xl:w-[880px] 2xl:max-w-[1250px]">
         <img
           src="/assets/images/home-two/round-shape-1.svg"
           alt=""
-          className="w-full"
+          class="w-full"
         />
         <img
           src="/assets/images/home-two/round-shape-2.svg"
           alt=""
-          className="absolute w-10/12"
+          class="absolute w-10/12"
         />
         <img
           src="/assets/images/home-two/round-shape-3.svg"
           alt=""
-          className="absolute w-8/12"
+          class="absolute w-8/12"
         />
         <img
           src="/assets/images/home-two/round-shape-4.svg"
           alt=""
-          className="absolute w-6/12"
+          class="absolute w-6/12"
         />
       </div>
     </section>
