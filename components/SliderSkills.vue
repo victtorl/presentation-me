@@ -137,7 +137,7 @@ const swiper = useSwiper(containerRef,{
 
 
 onMounted(() => {
-  console.log(swiper.instance)
+  // console.log(swiper.instance)
 })
 
 
