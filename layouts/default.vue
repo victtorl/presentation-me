@@ -1,7 +1,7 @@
 <template>
     <HeaderBase></HeaderBase>
           <ClientOnly>
-            <slot  />
+              <slot  />
           </ClientOnly>
       <FooterBase />
 </template>

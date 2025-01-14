@@ -6,7 +6,7 @@
 <template>
     <section
       id="banner-two"
-      class="relative w-full py-3 overflow-hidden bg-blue-seo pt-28"
+      class="relative w-full py-3 overflow-hidden bg-blue-seo pt-28 px-6 2xl:px-0"
     >
       <div class="w-full max-w-[1506px] relative theme-container mx-auto grid grid-cols-6 xl:grid-cols-12 z-10">
         <img
@@ -194,7 +194,7 @@
         <img
           src="/assets/images/porta/code-programing.jpg"
           alt="img"
-          class="relative bottom-10 right-0 self-end w-[711px] h-[453px] col-span-7 2xl:-right-52 moving-h2-hero-main-img"
+          class="relative xl:bottom-10 right-0 self-end lg:w-[711px] lg:h-[453px] col-span-7 2xl:-right-52 moving-h2-hero-main-img"
         />
       </div>
       <div class="rotating_circle z-0 absolute flex justify-center items-center -bottom-4 xl:-bottom-[150px] right-0 xl:-right-20 h-0 w-full xl:w-[880px] 2xl:max-w-[1250px]">

@@ -1,6 +1,6 @@
 <template>
        <section id="features" class="">
-      <div class="mx-auto theme-container">
+      <div class="mx-auto theme-container px-6 2xl:px-0">
         <h1 class="px-5 bg-white/10 border border-white/20 text-black font-medium rounded-[30px] w-fit mx-auto">
           Core Features
         </h1>
@@ -104,7 +104,7 @@ import img7 from '~/assets/images/porta/aqua.jpeg'
 const containerRef = ref(null)
 
 const swiper = useSwiper(containerRef,{
-    slidesPerView: 4,
+    slidesPerView: 1.5,
     spaceBetween: 40,
     observer: true,
     observeParents: true,

@@ -1,5 +1,5 @@
 <template>
-       <footer class="w-full overflow-hidden bg-black">
+       <footer class="w-full overflow-hidden bg-black mt-10 px-6 2xl:px-0">
       <div class="mx-auto border-t theme-container border-white/10">
         <div class="flex flex-wrap gap-5 justify-between mb-20 mt-[80px]">
           <div class="w-fit max-w-[300px]">
@@ -168,8 +168,8 @@
           </div>
           <div class="flex flex-wrap items-center justify-between w-full h-full">
             <span class="text-dark-silver max-w-80">
-              2024 © All rights reserved by
-              <b class="text-main-black">Quland</b>
+              <!-- 2024 © All rights reserved by
+              <b class="text-main-black">Quland</b> -->
             </span>
             <div class="relative flex justify-center w-full sm:w-fit">
               <a
@@ -198,13 +198,7 @@
               </a>
             </div>
             <ul class="flex items-center space-x-3 max-w-80 md:space-x-6">
-              <li class="font-medium hover:text-white hover:underline common-transition text-paragraph">
-                <a href="#">Privacy Policy</a>
-              </li>
-              <li class="font-medium text-paragraph">|</li>
-              <li class="font-medium hover:text-white hover:underline common-transition text-paragraph">
-                <a href="#">Terms & Conditions</a>
-              </li>
+             
             </ul>
           </div>
         </div>
