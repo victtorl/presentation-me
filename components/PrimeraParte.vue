@@ -6,7 +6,7 @@
 <template>
     <section
       id="banner-two"
-      class="relative w-full py-3 overflow-hidden bg-blue-seo pt-28 px-6 2xl:px-0"
+      class="relative w-full py-3 overflow-hidden bg-caribbean-green pt-28 px-6 2xl:px-0"
     >
       <div class="w-full max-w-[1506px] relative theme-container mx-auto grid grid-cols-6 xl:grid-cols-12 z-10">
         <img

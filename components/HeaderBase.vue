@@ -14,7 +14,11 @@
           </button>
         </div>
         <div class="hidden lg:flex lg:gap-x-12">
-          <NuxtLink v-for="item in navigation" :key="item.name" :href="item.href" class="text-sm/6 font-semibold text-gray-900">{{ item.name }}</NuxtLink>
+          <NuxtLink v-for="(item,index) in navigation" :key="item.name" :href="item.href" @click="setNavItem(index+1)"
+          :class="`${selectNavItem==index+1?' text-caribbean-green':''}`"
+           class="text-sm/6 font-semibold ">
+            {{ item.name }}
+          </NuxtLink>
         </div>
         <div class="hidden lg:flex lg:flex-1 lg:justify-end">
           <a  class="text-sm/6 font-semibold text-gray-900">Log in <span aria-hidden="true">&rarr;</span></a>
@@ -36,11 +40,17 @@
           <div class="mt-6 flow-root">
             <div class="-my-6 divide-y divide-gray-500/10">
               <div class="space-y-2 py-6">
-                <!-- <NuxtLink v-for="item in navigation" :key="item.name" :to="item.href" class="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-50">{{ item.name }}</NuxtLink> -->
-                <NuxtLink to="/" class="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-50" >
+                <NuxtLink v-for="item in navigation" :key="item.name" :to="item.href" 
+                class="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-50">
+                {{ item.name }}
+                </NuxtLink>
+                <!-- <NuxtLink to="/" 
+                :class="`${`/`==state.linkTo?' text-caribbean-green':''}`"
+                class="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-50" >
                   Victor Lara
                 </NuxtLink>
-                <NuxtLink to="/proyectos" class="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-50" >
+                <NuxtLink to="/proyectos" 
+                 class="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-50" >
                   Proyectos
                 </NuxtLink>
                 <NuxtLink to="/blog" class="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-50" >
@@ -48,7 +58,7 @@
                 </NuxtLink>
                 <NuxtLink to="/contacto" class="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-50" >
                   Contácto
-                </NuxtLink>
+                </NuxtLink> -->
               </div>
               <div class="py-6">
                 <a  class="-mx-3 block rounded-lg px-3 py-2.5 text-base/7 font-semibold text-gray-900 hover:bg-gray-50">Log in</a>
@@ -65,12 +75,41 @@
   import { Dialog, DialogPanel } from '@headlessui/vue'
   import { Bars3Icon, XMarkIcon } from '@heroicons/vue/24/outline'
   
+  const selectNavItem=ref(1)
+
+  onMounted(() => {
+    if(localStorage.getItem('tabitem')===null){
+      selectNavItem.value=1
+    }else{
+      selectNavItem.value=localStorage.getItem('tabitem')
+    }
+  })
+
+  const setNavItem=(indx) => {
+    selectNavItem.value=indx
+    localStorage.setItem("tabitem",indx);
+  }
   const navigation = [
-    { name: 'Victor Lara', href: '/' },
-    { name: 'Proyectos', href: '/proyectos' },
-    { name: 'Blog', href: '/blog' },
-    { name: 'Contacto', href: '/contacto' },
+    { name: 'Victor Lara', href: '/',id:1 },
+    { name: 'Proyectos', href: '/proyectos',id:2 },
+    { name: 'Blog', href: '/blog',id:3 },
+    { name: 'Contacto', href: '/contacto',id:4 },
   ]
   
   const mobileMenuOpen = ref(false)
+
+
+const routez = useRoute();
+const state=reactive({
+    linkTo:routez.path
+})
+watch(
+  () => routez.path,
+  () => {
+    state.linkTo=routez.path
+    console.log(state.linkTo);
+    
+  },
+)
+
   </script>
