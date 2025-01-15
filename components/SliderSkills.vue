@@ -2,10 +2,10 @@
        <section id="features" class="">
       <div class="mx-auto theme-container px-6 2xl:px-0">
         <h1 class="px-5 bg-white/10 border border-white/20 text-black font-medium rounded-[30px] w-fit mx-auto">
-          Core Features
+          Algunos skills
         </h1>
         <h2 class="sm:text-48 text-24 font-semibold text-black mb-[42px] mt-[18px] w-full max-w-[795px] text-center mx-auto">
-          The Best Creative Service
+          Competencias y habilidades 
         </h2>
         <div class="w-full">
           <div class=" h10-service-slider pt-8 md:pt-14 overflow-hidden">
@@ -16,7 +16,7 @@
                   :key="idx"
                   style="height: auto;"
                 >
-                <div class="h10-service-card border border-white/10 rounded-[10px] relative group common-transition before:inline-block before:w-full before:h-full before:border before:rounded-[10px] before:border-caribbean-green before:absolute before:bottom-0 before:right-0 before:shadow-cari-green before:origin-bottom-right before:scale-0 hover:before:scale-100 before:transition-all before:duration-300 before:z-0 after:inline-block after:w-full after:h-full after:border after:rounded-[10px] after:border-caribbean-green after:absolute after:top-0 after:left-0 after:shadow-cari-green after:origin-top-left after:scale-0 hover:after:scale-100 after:transition-all after:duration-300 after:z-0 before:ease-linear after:ease-linear aos-init aos-animate">
+                <div class="h10-service-card border border-white/10 rounded-[10px] w-64 relative group common-transition before:inline-block before:w-full before:h-full before:border before:rounded-[10px] before:border-caribbean-green before:absolute before:bottom-0 before:right-0 before:shadow-cari-green before:origin-bottom-right before:scale-0 hover:before:scale-100 before:transition-all before:duration-300 before:z-0 after:inline-block after:w-full after:h-full after:border after:rounded-[10px] after:border-caribbean-green after:absolute after:top-0 after:left-0 after:shadow-cari-green after:origin-top-left after:scale-0 hover:after:scale-100 after:transition-all after:duration-300 after:z-0 before:ease-linear after:ease-linear aos-init aos-animate">
                   <div class="p-10 bg-[#1D1D1D] rounded-[10px] relative z-10 m-[1px]">
                     <span class="text-white transition-all duration-300 group-hover:text-caribbean-green">
                       <svg
@@ -43,13 +43,12 @@
                         </defs>
                       </svg>
                     </span>
-                    <h1 class="pt-10 font-semibold text-white text-20">
-                      Product Design
+                    <h1 class="py-5 font-semibold text-white text-center  h-20 text-20">
+                      {{ slide.title }}
                     </h1>
-                    <p class="text-dark-silver text-base leading-7 pt-[13px] pb-1">
-                      Modern business agencies to customized solutions they
-                      tailored specific needs
-                    </p>
+                    <!-- <p class="text-dark-silver text-base leading-7 h-20  pb-1">
+                      {{ slide.subtitle }}
+                    </p> -->
                     <Link to="/service-details">
                       <div class="flex items-center gap-2 mt-5 text-paragraph group-hover:text-caribbean-green group">
                         <span class="relative font-medium leading-5 border-b border-transparent font-inter before:inline-block before:border-caribbean-green before:border-b before:absolute before:bottom-0 before:transition-all before:duration-300 before:w-0 hover:before:w-full before:overflow-hidden before:h-5">
@@ -144,28 +143,29 @@ onMounted(() => {
 
 const slides=ref([
   {
-    img:img1
+    img:img1,
+    title:'Java',
   },
   {
-    img:img2
+    img:img2,
+    title:'Javascript',
   },
   {
-    img:img3
+    img:img3,
+    title:'Typescript',
   },
   {
-    img:img4
+    img:img4,
+    title:'Gitlab',
   },
   {
-    img:img5
+    img:img5,
+    title:'Scrum',
   },
   {
-    img:img6
+    img:img5,
+    title:'Gitlab',
   },
-  {
-    img:img7
-  },
-
-
 ])
 
 
