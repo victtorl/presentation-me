@@ -90,10 +90,11 @@
     localStorage.setItem("tabitem",indx);
   }
   const navigation = [
-    { name: 'Victor Lara', href: '/',id:1 },
-    { name: 'Proyectos', href: '/proyectos',id:2 },
-    { name: 'Blog', href: '/blog',id:3 },
-    { name: 'Contacto', href: '/contacto',id:4 },
+    { name: 'Victor Lara', href: '/' },
+    { name: 'Proyectos', href: '/proyectos',},
+    { name: 'Componentes', href: '/componentes' },
+    { name: 'Blog', href: '/blog',},
+    { name: 'Contacto', href: '/contacto',},
   ]
   
   const mobileMenuOpen = ref(false)

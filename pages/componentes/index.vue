@@ -4,7 +4,7 @@
 <div class="w-full mx-auto py-10 px-4 md:px-8">
     <div class="max-w-2xl mx-auto text-center">
         <h2 class="text-2xl font-bold tracking-tight text-gray-900 sm:text-4xl dark:text-white">
-            From The Blog
+            Componentes reutilizables
         </h2>
     </div>
     <div class="grid max-w-2xl grid-cols-1 gap-8 mx-auto mt-8 auto-rows-fr lg:mx-0 lg:max-w-none lg:grid-cols-3 h-full ">

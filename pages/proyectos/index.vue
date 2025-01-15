@@ -3,80 +3,39 @@
 
 <div class="mx-auto max-w-7xl px-6 lg:px-8 pt-8">
     <div class="mx-auto max-w-2xl text-center">
-        <h2 class="text-3xl font-bold tracking-tight text-gray-900 dark:text-white sm:text-4xl">From The Blog</h2>
+        <h2 class="text-3xl font-bold tracking-tight text-gray-900 dark:text-white sm:text-4xl">Acerca de mis proyectos</h2>
         <p class="mt-2 text-lg leading-8 text-gray-600 dark:text-gray-300">
-            Dive into the latest in technology with our insightful blog posts.
+            Una seleccion de algunos de mis proyectos
         </p>
     </div>
     <div
         class="mx-auto mt-8 grid max-w-2xl auto-rows-fr grid-cols-1 gap-8 sm:mt-12 lg:mx-0 lg:max-w-none lg:grid-cols-3 ">
         <!-- First blog post -->
-        <article
+        <article  v-for="item in proyectos"
             class="relative isolate flex flex-col justify-end overflow-hidden rounded-2xl bg-gray-900 dark:bg-gray-700 px-8 py-8 pb-8 pt-80 sm:pt-48 lg:pt-80">
-            <img src="https://images.unsplash.com/photo-1677442135703-1787eea5ce01?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NzEyNjZ8MHwxfHNlYXJjaHw1fHxhaXxlbnwwfDB8fHwxNzEyNzUzMTQ4fDA&ixlib=rb-4.0.3&q=80&w=1080" alt="" class="absolute inset-0 -z-10 h-full w-full object-cover">
+            <img :src="item.imageUrl" alt="" class="absolute inset-0 -z-10 h-full w-full object-cover">
             <div class="absolute inset-0 -z-10 bg-gradient-to-t from-gray-900 via-gray-900/40"></div>
             <div class="absolute inset-0 -z-10 rounded-2xl ring-1 ring-inset ring-gray-900/10"></div>
             <div class="flex flex-wrap items-center gap-y-1 overflow-hidden text-sm leading-6 text-gray-300"><time
-                    datetime="2023-10-11" class="mr-8">Oct 11, 2023</time>
+                    datetime="2023-10-11" class="mr-8">{{ item.date }}</time>
                 <div class="-ml-4 flex items-center gap-x-4"><svg viewBox="0 0 2 2"
                         class="-ml-0.5 h-0.5 w-0.5 flex-none fill-white/50">
                         <circle cx="1" cy="1" r="1"></circle>
                     </svg>
                     <div class="flex gap-x-2.5">
-                        <img src="https://randomuser.me/api/portraits/men/2.jpg" alt="" class="h-6 w-6 flex-none rounded-full bg-white/10">John
+                        <div  class="h-6 w-6 flex-none rounded-full bg-white"/>
+                        {{ item.author.name }}
                     </div>
                 </div>
             </div>
             <h3 class="mt-3 text-lg font-semibold leading-6 text-white">
-                <a href="/proyectos/post1"><span class="absolute inset-0"></span>The Future of Artificial
-                    Intelligence: Trends and Challenges</a>
+                <NuxtLink target="_blank" :to='item.href'><span class="absolute inset-0"></span>
+                    {{ item.title }}
+                </NuxtLink>
             </h3>
         </article>
-        <!-- Second blog post -->
-        <article
-            class="relative isolate flex flex-col justify-end overflow-hidden rounded-2xl bg-gray-900 dark:bg-gray-700 px-8 py-8 pb-8 pt-80 sm:pt-48 lg:pt-80">
-            <img src="https://images.unsplash.com/photo-1639322537228-f710d846310a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NzEyNjZ8MHwxfHNlYXJjaHw1fHxibG9jayUyMGNoYWlufGVufDB8MHx8fDE3MTI3NTMxNjd8MA&ixlib=rb-4.0.3&q=80&w=1080" alt="" class="absolute inset-0 -z-10 h-full w-full object-cover">
-            <div class="absolute inset-0 -z-10 bg-gradient-to-t from-gray-900 via-gray-900/40"></div>
-            <div class="absolute inset-0 -z-10 rounded-2xl ring-1 ring-inset ring-gray-900/10"></div>
-            <div class="flex flex-wrap items-center gap-y-1 overflow-hidden text-sm leading-6 text-gray-300"><time
-                    datetime="2023-09-25" class="mr-8">Sept 25, 2023</time>
-                <div class="-ml-4 flex items-center gap-x-4"><svg viewBox="0 0 2 2"
-                        class="-ml-0.5 h-0.5 w-0.5 flex-none fill-white/50">
-                        <circle cx="1" cy="1" r="1"></circle>
-                    </svg>
-                    <div class="flex gap-x-2.5">
-                        <img src="https://randomuser.me/api/portraits/women/2.jpg" alt="" class="h-6 w-6 flex-none rounded-full bg-white/10">Jane
-                    </div>
-                </div>
-            </div>
-            <h3 class="mt-3 text-lg font-semibold leading-6 text-white">
-                <a href="/proyectos/post2"><span class="absolute inset-0"></span>The Rise of Blockchain Technology:
-                    A Comprehensive Guide</a>
-            </h3>
-        </article>
-        <!-- Third blog post -->
-        <article
-            class="relative isolate flex flex-col justify-end overflow-hidden rounded-2xl bg-gray-900 dark:bg-gray-700 px-8 py-8 pb-8 pt-80 sm:pt-48 lg:pt-80">
-            <img src="https://images.unsplash.com/photo-1666112835156-c65bb806ac73?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NzEyNjZ8MHwxfHNlYXJjaHwxNXx8cXVhbnR1bSUyMGNvbXB1dGluZ3xlbnwwfDB8fHwxNzEyNzUzMTk2fDA&ixlib=rb-4.0.3&q=80&w=1080" alt="" class="absolute inset-0 -z-10 h-full w-full object-cover">
-            <div class="absolute inset-0 -z-10 bg-gradient-to-t from-gray-900 via-gray-900/40"></div>
-            <div class="absolute inset-0 -z-10 rounded-2xl ring-1 ring-inset ring-gray-900/10"></div>
-            <div class="flex flex-wrap items-center gap-y-1 overflow-hidden text-sm leading-6 text-gray-300"><time
-                    datetime="2023-09-24" class="mr-8">Sept 24, 2023</time>
-                <div class="-ml-4 flex items-center gap-x-4"><svg viewBox="0 0 2 2"
-                        class="-ml-0.5 h-0.5 w-0.5 flex-none fill-white/50">
-                        <circle cx="1" cy="1" r="1"></circle>
-                    </svg>
-                    <div class="flex gap-x-2.5">
-                        <img src="https://randomuser.me/api/portraits/men/4.jpg" alt="" class="h-6 w-6 flex-none rounded-full bg-white/10">Michael
-                    </div>
-                </div>
-            </div>
-            <h3 class="mt-3 text-lg font-semibold leading-6 text-white">
-                <a href="/proyectos/post3"><span class="absolute inset-0"></span>How Quantum Computing Will
-                    Revolutionize Data Security</a>
-            </h3>
-        </article>
-        <!-- More blog posts can be added similarly -->
+
+
     </div>
 </div>
 
@@ -84,26 +43,49 @@
   </template>
   
   <script setup>
-  const posts = [
+
+ import img1 from '~/assets/images/projects/electratec.png'
+
+  const proyectos = [
     {
       id: 1,
-      title: 'Boost your conversion rate',
-      href: 'boost-your-conversion-rate',
+      title: 'Sistema de gestion de ordenes para venta de productos eléctricos',
+      href: 'https://electratec.netlify.app/',
       description:
-        'Illo sint voluptas. Error voluptates culpa eligendi. Hic vel totam vitae illo. Non aliquid explicabo necessitatibus unde. Sed exercitationem placeat consectetur nulla deserunt vel iusto corrupti dicta laboris incididunt.',
-      imageUrl:
-        'https://images.unsplash.com/photo-1496128858413-b36217c2ce36?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3603&q=80',
-      date: 'Mar 16, 2020',
+        'Vista del sistema de gestion de ordenes para  venta de productos eléctricos',
+      imageUrl:img1,
+      date: '14/01/2024',
       datetime: '2020-03-16',
-      category: { title: 'Marketing', href: '#' },
+      category: { title: 'sistema', href: '#' },
       author: {
-        name: 'Michael Foster',
+        name: 'Victor Lara',
         role: 'Co-Founder / CTO',
         href: '#',
         imageUrl:
           'https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
       },
     },
-    // More posts...
+    {
+      id: 2,
+      title: 'Página de aterrizaje de una web de crecimiento personal',
+      href: 'https://www.centroproactiva.com/',
+      description:
+        'Página de aterrizaje de una web de crecimiento personal',
+      imageUrl:
+        'https://images.unsplash.com/photo-1496128858413-b36217c2ce36?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3603&q=80',
+      date: '14/01/2024',
+      datetime: '2020-03-16',
+      category: { title: 'sistema', href: '#' },
+      author: {
+        name: 'Victor Lara',
+        role: 'Co-Founder / CTO',
+        href: '#',
+        imageUrl:
+          'https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
+      },
+    },
+
   ]
+
+
   </script>
