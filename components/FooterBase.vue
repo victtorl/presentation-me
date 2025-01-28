@@ -1,5 +1,5 @@
 <template>
-       <footer class="w-full overflow-hidden bg-black mt-10 px-6 2xl:px-0">
+       <footer class="w-full overflow-hidden bg-black mt-0 px-6 2xl:px-0">
       <div class="mx-auto border-t theme-container border-white/10">
         <div class="flex flex-wrap gap-5 justify-between mb-20 mt-[80px]">
           <div class="w-fit max-w-[300px]">
