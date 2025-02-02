@@ -128,7 +128,7 @@ const swiper = useSwiper(containerRef,{
         spaceBetween: 40,
       },
       1024: {
-        slidesPerView: 3.5,
+        slidesPerView: 5.5,
         spaceBetween: 50,
       },
     },
@@ -148,23 +148,35 @@ const slides=ref([
   },
   {
     img:img2,
-    title:'Javascript',
+    title:'Spring',
+  },
+  {
+    img:img2,
+    title:'React',
+  },
+  {
+    img:img2,
+    title:'Vue',
   },
   {
     img:img3,
-    title:'Typescript',
+    title:'Node',
   },
   {
     img:img4,
-    title:'Gitlab',
+    title:'Javascript',
   },
   {
     img:img5,
-    title:'Scrum',
+    title:'Linux',
   },
   {
     img:img5,
-    title:'Gitlab',
+    title:'Git Gitlab',
+  },
+  {
+    img:img5,
+    title:'SQL, NoSql',
   },
 ])
 

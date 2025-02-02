@@ -11,11 +11,11 @@
   };
 
   const tabs = ref([
-    { name: "about_me", label: "About Me" },
-    { name: "experience", label: "Experience" },
+    { name: "about_me", label: "Sobre mi" },
+    { name: "experience", label: "Experiencia" },
     { name: "skills", label: "Skills" },
-    { name: "education", label: "Education" },
-    { name: "awards", label: "Awards" },
+    { name: "education", label: "Educación" },
+    // { name: "awards", label: "Awards" },
   ])
 
  
@@ -93,11 +93,11 @@ function activateItem(item){
         <div class="relative z-10 grid grid-cols-3 gap-3 xl:grid-cols-12 gap-y-10">
           <div class="relative col-span-8">
             <h1 class="px-5 bg-white/10 border border-white/20 text-black font-medium rounded-[30px] w-fit">
-              About Me
+              Sobre mi
             </h1>
             <h2 class="sm:text-48 text-24 font-semibold text-black mb-[42px] mt-[18px] w-full max-w-[795px]">
-              I Have 13+ Years Experience <br />
-              With 450+ Projects Done
+              Tengo 5+ años de experiencia <br />
+              con proyectos realizados en distintos lenguajes
             </h2>
             <div class="max-w-[665px]">
 
@@ -529,7 +529,7 @@ function activateItem(item){
                 <div v-else-if="selectedId === 4" id="education" class="relative max-w-full min-w-full">
                   <div class="flex flex-col sm:flex-row justify-between gap-[30px]">
                     <div class="bg-[#1D1D1D] rounded-[10px] p-[30px] border border-white/10">
-                      <div class="flex items-center gap-2 h-fit text-caribbean-green">
+                      <!-- <div class="flex items-center gap-2 h-fit text-caribbean-green">
                         <svg
                           width="16"
                           height="18"
@@ -581,218 +581,84 @@ function activateItem(item){
                           />
                         </svg>
                         <span>2015-2018</span>
-                      </div>
-                      <h1 class="font-semibold text-black text-18">
-                        Senior UI Designer
+                      </div> -->
+                      <h1 class="font-semibold text-white text-18">
+                        Pregrado Ingenieria de software UNMSM
                       </h1>
-                      <p class="text-[#8E8E8E] text-sm leading-[30px]">
-                        Quomodosoft
+                      <p class="text-[#8E8E8E] text-xs leading-[30px]">
+                        EAP Ingenieria de Software 
                       </p>
                       <p class="text-dark-silver">
-                        Modern business agencies the ways customized the most
-                        solutions
+                        Bachiller en ingenieria ade Software
                       </p>
                     </div>
                     <div class="bg-[#1D1D1D] rounded-[10px] p-[30px] border border-white/10">
-                      <div class="flex items-center gap-2 h-fit text-caribbean-green">
-                        <svg
-                          width="16"
-                          height="18"
-                          viewBox="0 0 16 18"
-                          fill="none"
-                          xmlns="http://www.w3.org/2000/svg"
-                        >
-                          <path
-                            d="M1 6.2002C1 3.99106 2.79086 2.2002 5 2.2002H11.4C13.6091 2.2002 15.4 3.99106 15.4 6.2002V13.0002C15.4 15.2093 13.6091 17.0002 11.4 17.0002H5C2.79086 17.0002 1 15.2093 1 13.0002V6.2002Z"
-                            stroke="currentColor"
-                          />
-                          <path
-                            d="M1 6.59961H15.4"
-                            stroke="currentColor"
-                            strokeLinecap="round"
-                          />
-                          <path
-                            d="M5 1L5 3.4"
-                            stroke="currentColor"
-                            strokeLinecap="round"
-                            strokeLinejoin="round"
-                          />
-                          <path
-                            d="M11.4004 1V3.4"
-                            stroke="currentColor"
-                            strokeLinecap="round"
-                            strokeLinejoin="round"
-                          />
-                          <ellipse
-                            cx="8.20039"
-                            cy="11.3996"
-                            rx="0.8"
-                            ry="0.8"
-                            fill="currentColor"
-                          />
-                          <ellipse
-                            cx="11.3996"
-                            cy="11.3996"
-                            rx="0.8"
-                            ry="0.8"
-                            fill="currentColor"
-                          />
-                          <ellipse
-                            cx="4.99922"
-                            cy="11.3996"
-                            rx="0.8"
-                            ry="0.8"
-                            fill="currentColor"
-                          />
-                        </svg>
-                        <span>2015-2018</span>
-                      </div>
-                      <h1 class="font-semibold text-black text-18">
-                        Junior UX Designer
+                      
+                      <h1 class="font-semibold text-white text-18">
+                      Curso JAVA
                       </h1>
-                      <p class="text-[#8E8E8E] text-sm leading-[30px]">
-                        Quomodosoft
+                      <p class="text-[#8E8E8E] text-xs leading-[30px]">
+                        CERCEU UNMSM
                       </p>
                       <p class="text-dark-silver">
-                        Modern business agencies the ways customized the most
-                        solutions
+                        Curso JAVA developer en CERCEU UNMSM
                       </p>
                     </div>
                   </div>
                   <div class="flex flex-col sm:flex-row justify-between pt-3 gap-[30px]">
                     <div class="bg-[#1D1D1D] rounded-[10px] p-[30px] border border-white/10">
-                      <div class="flex items-center gap-2 h-fit text-caribbean-green">
-                        <svg
-                          width="16"
-                          height="18"
-                          viewBox="0 0 16 18"
-                          fill="none"
-                          xmlns="http://www.w3.org/2000/svg"
-                        >
-                          <path
-                            d="M1 6.2002C1 3.99106 2.79086 2.2002 5 2.2002H11.4C13.6091 2.2002 15.4 3.99106 15.4 6.2002V13.0002C15.4 15.2093 13.6091 17.0002 11.4 17.0002H5C2.79086 17.0002 1 15.2093 1 13.0002V6.2002Z"
-                            stroke="currentColor"
-                          />
-                          <path
-                            d="M1 6.59961H15.4"
-                            stroke="currentColor"
-                            strokeLinecap="round"
-                          />
-                          <path
-                            d="M5 1L5 3.4"
-                            stroke="currentColor"
-                            strokeLinecap="round"
-                            strokeLinejoin="round"
-                          />
-                          <path
-                            d="M11.4004 1V3.4"
-                            stroke="currentColor"
-                            strokeLinecap="round"
-                            strokeLinejoin="round"
-                          />
-                          <ellipse
-                            cx="8.20039"
-                            cy="11.3996"
-                            rx="0.8"
-                            ry="0.8"
-                            fill="currentColor"
-                          />
-                          <ellipse
-                            cx="11.3996"
-                            cy="11.3996"
-                            rx="0.8"
-                            ry="0.8"
-                            fill="currentColor"
-                          />
-                          <ellipse
-                            cx="4.99922"
-                            cy="11.3996"
-                            rx="0.8"
-                            ry="0.8"
-                            fill="currentColor"
-                          />
-                        </svg>
-                        <span>2015-2018</span>
-                      </div>
-                      <h1 class="font-semibold text-black text-18">
-                        Lead UI Designer
+                      
+                      <h1 class="font-semibold text-white text-18">
+                        Curso HTML CSS JS
                       </h1>
-                      <p class="text-[#8E8E8E] text-sm leading-[30px]">
-                        Quomodosoft
+                      <p class="text-[#8E8E8E] text-xs leading-[30px]">
+                        CERCEU UNMSM
                       </p>
                       <p class="text-dark-silver">
-                        Modern business agencies the ways customized the most
-                        solutions
+                        Curso Frontend developer
                       </p>
                     </div>
                     <div class="bg-[#1D1D1D] rounded-[10px] p-[30px] border border-white/10">
-                      <div class="flex items-center gap-2 h-fit text-caribbean-green">
-                        <svg
-                          width="16"
-                          height="18"
-                          viewBox="0 0 16 18"
-                          fill="none"
-                          xmlns="http://www.w3.org/2000/svg"
-                        >
-                          <path
-                            d="M1 6.2002C1 3.99106 2.79086 2.2002 5 2.2002H11.4C13.6091 2.2002 15.4 3.99106 15.4 6.2002V13.0002C15.4 15.2093 13.6091 17.0002 11.4 17.0002H5C2.79086 17.0002 1 15.2093 1 13.0002V6.2002Z"
-                            stroke="currentColor"
-                          />
-                          <path
-                            d="M1 6.59961H15.4"
-                            stroke="currentColor"
-                            strokeLinecap="round"
-                          />
-                          <path
-                            d="M5 1L5 3.4"
-                            stroke="currentColor"
-                            strokeLinecap="round"
-                            strokeLinejoin="round"
-                          />
-                          <path
-                            d="M11.4004 1V3.4"
-                            stroke="currentColor"
-                            strokeLinecap="round"
-                            strokeLinejoin="round"
-                          />
-                          <ellipse
-                            cx="8.20039"
-                            cy="11.3996"
-                            rx="0.8"
-                            ry="0.8"
-                            fill="currentColor"
-                          />
-                          <ellipse
-                            cx="11.3996"
-                            cy="11.3996"
-                            rx="0.8"
-                            ry="0.8"
-                            fill="currentColor"
-                          />
-                          <ellipse
-                            cx="4.99922"
-                            cy="11.3996"
-                            rx="0.8"
-                            ry="0.8"
-                            fill="currentColor"
-                          />
-                        </svg>
-                        <span>2015-2018</span>
-                      </div>
-                      <h1 class="font-semibold text-black text-18">
-                        Junior Team Leader
+                      
+                      <h1 class="font-semibold text-white text-18">
+                        Spring y Microservicios
                       </h1>
-                      <p class="text-[#8E8E8E] text-sm leading-[30px]">
-                        Quomodosoft
+                      <p class="text-[#8E8E8E] text-xs leading-[30px]">
+                        UDEMY
                       </p>
                       <p class="text-dark-silver">
-                        Modern business agencies the ways customized the most
-                        solutions
+                        Desarrollo con Spring y Microservicios
+                      </p>
+                    </div>
+                  </div>
+                  <div class="flex flex-col sm:flex-row justify-between pt-3 gap-[30px]">
+                    <div class="bg-[#1D1D1D] rounded-[10px] p-[30px] border border-white/10">
+                      
+                      <h1 class="font-semibold text-white text-18">
+                        React de Cero a Experto
+                      </h1>
+                      <p class="text-[#8E8E8E] text-xs leading-[30px]">
+                        UDEMY
+                      </p>
+                      <p class="text-dark-silver">
+                        Curso  de react desde los fundamentos
+                      </p>
+                    </div>
+                    <div class="bg-[#1D1D1D] rounded-[10px] p-[30px] border border-white/10">
+                      
+                      <h1 class="font-semibold text-white text-18">
+                        NODE JS curso
+                      </h1>
+                      <p class="text-[#8E8E8E] text-xs leading-[30px]">
+                        UDEMY
+                      </p>
+                      <p class="text-dark-silver">
+                        Desarrollo de aplicaciones con NodeJS
                       </p>
                     </div>
                   </div>
                 </div>
-                <div v-else-if="selectedId === 5" id="awards" class="relative max-w-full min-w-full">
+                <!-- <div v-else-if="selectedId === 5" id="awards" class="relative max-w-full min-w-full">
                   <div class="flex flex-col sm:flex-row justify-between gap-[30px]">
                     <div class="bg-[#1D1D1D] rounded-[10px] p-[30px] border border-white/10 w-full">
                       <div class="flex items-center gap-2 h-fit text-caribbean-green">
@@ -1145,7 +1011,7 @@ function activateItem(item){
                       </p>
                     </div>
                   </div>
-                </div>
+                </div> -->
               </div>
             </div>
           </div>
