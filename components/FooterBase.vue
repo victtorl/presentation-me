@@ -2,7 +2,7 @@
        <footer class="w-full overflow-hidden bg-black mt-0 px-6 2xl:px-0">
       <div class="mx-auto border-t theme-container border-white/10">
         <div class="flex flex-wrap gap-5 justify-between mb-20 mt-[80px]">
-          <div class="w-fit max-w-[300px]">
+          <!-- <div class="w-fit max-w-[300px]">
             <div class="max-w-[223px]">
               <h1 class="font-semibold text-18 text-dark-silver">
                 Address
@@ -13,11 +13,11 @@
                 </span>
               </div>
             </div>
-          </div>
+          </div> -->
           <div class="w-fit max-w-[300px]">
             <div class="max-w-[223px]">
               <h1 class="font-semibold text-18 text-dark-silver">
-                Contact
+                Contacto
               </h1>
               <div class="flex gap-2 items-center relative group font-medium text-white hover:text-caribbean-green hover:underline transition-all duration-300 mt-3.5">
                 <span class="transition-all duration-300">
@@ -29,37 +29,19 @@
           </div>
           <div class="w-fit max-w-[300px]">
             <h1 class="font-semibold text-18 text-dark-silver">
-              Newsletter
+              Otras entradas
             </h1>
             <div class="flex border-b border-white/10">
-              <input
-                type="email"
-                placeholder="Email Address"
-                id="eFive"
-                class="border border-transparent py-1 px-0 rounded-[28px] bg-transparent focus:outline-none w-full mt-5 text-paragraph"
-              />
-              <button class="p-0 m-0 border-none outline-none h-fit pt-9">
-                <svg
-                  width="11"
-                  height="11"
-                  viewBox="0 0 11 11"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="M10.1716 6.82806L10.1716 1.17121M10.1716 1.17121L4.51472 1.17121M10.1716 1.17121L1.68629 9.65649"
-                    stroke="white"
-                    strokeWidth="1.5"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                  />
-                </svg>
-              </button>
+             <ul class="text-white">
+              <li>entrada 1</li>
+              <li>entrada 2</li>
+              <li>entrada 3</li>
+             </ul>
             </div>
           </div>
           <div class="w-fit max-w-[300px]">
             <h1 class="mb-5 font-semibold text-18 text-dark-silver">
-              Follow Me
+              Social Media
             </h1>
             <div class="flex gap-[15px]">
               <a

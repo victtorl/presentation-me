@@ -143,13 +143,12 @@ function activateItem(item){
                   class="relative max-w-full min-w-full h-fit"
                 >
                   <p class="text-dark-silver">
-                    As a web designer, my passion lies in crafting digital
-                    experiences that captivate, engage, and inspire. With a keen
-                    eye for aesthetics and a deep understanding of user
-                    experience principles, I strive to create websites that not
-                    only look stunning
+                    Soy desarrollador con experiencia en Java, JavaScript y TypeScript, 
+                    especializado en la creación de aplicaciones robustas y escalables. 
+                    Manejo frameworks de frontend como React y Vue, lo que me permite construir
+                    interfaces de usuario eficientes y dinámicas. Mi enfoque es crear soluciones elegantes y optimizadas para usuarios finales.
                   </p>
-                  <div class="flex pt-10 gap-[100px] pb-10">
+                  <!-- <div class="flex pt-10 gap-[100px] pb-10">
                     <div class="">
                       <h1 class="font-semibold text-18 text-caribbean-green">
                         Address
@@ -170,8 +169,8 @@ function activateItem(item){
                       </p>
                       <p class="font-medium text-black">+880 456 852 99</p>
                     </div>
-                  </div>
-                  <Link href="/services" class="pointer-events-auto">
+                  </div> -->
+                  <!-- <Link href="/services" class="pointer-events-auto">
                     <div class="home-two-btn-bg group bg-transparent border-white/10 py-[15px] w-fit before:bg-caribbean-green after:bg-caribbean-green hover:border-caribbean-green">
                       <span class="relative z-10 text-base font-semibold text-black transition-all duration-300 group-hover:text-main-black font-inter">
                         Contact Me
@@ -194,7 +193,7 @@ function activateItem(item){
                         />
                       </svg>
                     </div>
-                  </Link>
+                  </Link> -->
                 </div>
 
                 <div v-else-if="selectedId === 2" id="experience" class="relative max-w-full min-w-full">
@@ -251,17 +250,16 @@ function activateItem(item){
                             fill="currentColor"
                           />
                         </svg>
-                        <span>2015-2018</span>
+                        <span>2025-Actualidad</span>
                       </div>
                       <h1 class="font-semibold text-black text-18">
-                        Senior UI Designer
+                        Freelance developer
                       </h1>
                       <p class="text-[#8E8E8E] text-sm leading-[30px]">
-                        Quomodosoft
+                        FreeLance
                       </p>
                       <p class="text-dark-silver">
-                        Modern business agencies the ways customized the most
-                        solutions
+                        Me dedico al freelance, creando webs responsivas y ofreciendo soporte .
                       </p>
                     </div>
                     <div class="bg-[#1D1D1D] rounded-[10px] p-[30px] border border-white/10">
@@ -316,17 +314,18 @@ function activateItem(item){
                             fill="currentColor"
                           />
                         </svg>
-                        <span>2015-2018</span>
+                        <span>2022-2025</span>
                       </div>
                       <h1 class="font-semibold text-black text-18">
-                        Junior UX Designer
+                        Javascript developer
                       </h1>
                       <p class="text-[#8E8E8E] text-sm leading-[30px]">
-                        Quomodosoft
+                        Komarkalabs
                       </p>
                       <p class="text-dark-silver">
-                        Modern business agencies the ways customized the most
-                        solutions
+                        <!-- Modern business agencies the ways customized the most
+                        solutions -->
+                        Desarrollé aplicaciones web con JavaScript, Nuxt y Vue; mantuve aplicaciones en IIS.
                       </p>
                     </div>
                   </div>
@@ -383,17 +382,18 @@ function activateItem(item){
                             fill="currentColor"
                           />
                         </svg>
-                        <span>2015-2018</span>
+                        <span>2020-2022</span>
                       </div>
                       <h1 class="font-semibold text-black text-18">
-                        Lead UI Designer
+                        Web developer
                       </h1>
                       <p class="text-[#8E8E8E] text-sm leading-[30px]">
-                        Quomodosoft
+                        Dominiotech
                       </p>
                       <p class="text-dark-silver">
-                        Modern business agencies the ways customized the most
-                        solutions
+                        <!-- Modern business agencies the ways customized the most
+                        solutions -->
+                        Mejoré vistas con React y apoyé en incidencias y atención de tickets.
                       </p>
                     </div>
                     <div class="bg-[#1D1D1D] rounded-[10px] p-[30px] border border-white/10">
@@ -448,17 +448,16 @@ function activateItem(item){
                             fill="currentColor"
                           />
                         </svg>
-                        <span>2015-2018</span>
+                        <span>2019-2020</span>
                       </div>
                       <h1 class="font-semibold text-black text-18">
-                        Junior Team Leader
+                        Anlista PHP
                       </h1>
                       <p class="text-[#8E8E8E] text-sm leading-[30px]">
-                        Quomodosoft
+                        Bluejeans
                       </p>
                       <p class="text-dark-silver">
-                        Modern business agencies the ways customized the most
-                        solutions
+                        Colaboré en el desarrollo de un sistema contable en PHP y en la creación de su base de datos.
                       </p>
                     </div>
                   </div>
@@ -468,28 +467,28 @@ function activateItem(item){
                     <div class="w-full flex flex-col gap-[30px]">
                       <div class="w-full">
                         <div class="flex justify-between w-full text-black">
-                          <p class="">Figma</p>
-                          <p class="">85%</p>
+                          <p class="">JAVA</p>
+                          <p class="">65%</p>
                         </div>
-                        <div class="w-full h-0.5 bg-white/20 relative before:block before:h-full before:w-[85%] before:bg-caribbean-green mt-3"></div>
+                        <div class="w-full h-0.5 bg-white/20 relative before:block before:h-full before:w-[65%] before:bg-caribbean-green mt-3"></div>
                       </div>
                       <div class="w-full">
                         <div class="flex justify-between w-full text-black">
-                          <p class="">Sketch</p>
-                          <p class="">63%</p>
+                          <p class="">JavaScript</p>
+                          <p class="">80%</p>
                         </div>
-                        <div class="w-full h-0.5 bg-white/20 relative before:block before:h-full before:w-[63%] before:bg-caribbean-green mt-3"></div>
+                        <div class="w-full h-0.5 bg-white/20 relative before:block before:h-full before:w-[80%] before:bg-caribbean-green mt-3"></div>
                       </div>
                       <div class="w-full">
                         <div class="flex justify-between w-full text-black">
-                          <p class="">Photoshop</p>
-                          <p class="">88%</p>
+                          <p class="">Spring</p>
+                          <p class="">40%</p>
                         </div>
-                        <div class="w-full h-0.5 bg-white/20 relative before:block before:h-full before:w-[88%] before:bg-caribbean-green mt-3"></div>
+                        <div class="w-full h-0.5 bg-white/20 relative before:block before:h-full before:w-[40%] before:bg-caribbean-green mt-3"></div>
                       </div>
                       <div class="w-full">
                         <div class="flex justify-between w-full text-black">
-                          <p class="">Adobe XD</p>
+                          <p class="">Vue</p>
                           <p class="">76%</p>
                         </div>
                         <div class="w-full h-0.5 bg-white/20 relative before:block before:h-full before:w-[76%] before:bg-caribbean-green mt-3"></div>
@@ -498,14 +497,14 @@ function activateItem(item){
                     <div class="w-full flex flex-col gap-[30px]">
                       <div class="w-full">
                         <div class="flex justify-between w-full text-black">
-                          <p class="">Wireframe</p>
-                          <p class="">81%</p>
+                          <p class="">React</p>
+                          <p class="">70%</p>
                         </div>
-                        <div class="w-full h-0.5 bg-white/20 relative before:block before:h-full before:w-[81%] before:bg-caribbean-green mt-3"></div>
+                        <div class="w-full h-0.5 bg-white/20 relative before:block before:h-full before:w-[70%] before:bg-caribbean-green mt-3"></div>
                       </div>
                       <div class="w-full">
                         <div class="flex justify-between w-full text-black">
-                          <p class="">Prototype</p>
+                          <p class="">C++</p>
                           <p class="">72%</p>
                         </div>
                         <div class="w-full h-0.5 bg-white/20 relative before:block before:h-full before:w-[72%] before:bg-caribbean-green mt-3"></div>
@@ -513,16 +512,16 @@ function activateItem(item){
                       <div class="w-full">
                         <div class="flex justify-between w-full text-black">
                           <p class="">HTML CSS</p>
-                          <p class="">45%</p>
+                          <p class="">75%</p>
                         </div>
-                        <div class="w-full h-0.5 bg-white/20 relative before:block before:h-full before:w-[45%] before:bg-caribbean-green mt-3"></div>
+                        <div class="w-full h-0.5 bg-white/20 relative before:block before:h-full before:w-[75%] before:bg-caribbean-green mt-3"></div>
                       </div>
                       <div class="w-full">
                         <div class="flex justify-between w-full text-black">
-                          <p class="">WordPress</p>
-                          <p class="">55%</p>
+                          <p class="">Entornos Linux</p>
+                          <p class="">65%</p>
                         </div>
-                        <div class="w-full h-0.5 bg-white/20 relative before:block before:h-full before:w-[55%] before:bg-caribbean-green mt-3"></div>
+                        <div class="w-full h-0.5 bg-white/20 relative before:block before:h-full before:w-[65%] before:bg-caribbean-green mt-3"></div>
                       </div>
                     </div>
                   </div>
