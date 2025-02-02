@@ -92,7 +92,7 @@
   const navigation = [
     { name: 'Victor Lara', href: '/' },
     { name: 'Proyectos', href: '/proyectos',},
-    { name: 'Componentes', href: '/componentes' },
+  //  { name: 'Componentes', href: '/componentes' },
     { name: 'Blog', href: '/blog',},
     { name: 'Contacto', href: '/contacto',},
   ]

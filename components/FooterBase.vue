@@ -21,8 +21,8 @@
               </h1>
               <div class="flex gap-2 items-center relative group font-medium text-white hover:text-caribbean-green hover:underline transition-all duration-300 mt-3.5">
                 <span class="transition-all duration-300">
-                  infoquland@gmail.com <br />
-                  +880 456 852 99
+                  victorlara.cod@gmail.com <br />
+                  +51 982043391
                 </span>
               </div>
             </div>
