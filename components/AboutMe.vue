@@ -451,7 +451,7 @@ function activateItem(item){
                         <span>2019-2020</span>
                       </div>
                       <h1 class="font-semibold text-black text-18">
-                        Anlista PHP
+                        Analista PHP
                       </h1>
                       <p class="text-[#8E8E8E] text-sm leading-[30px]">
                         Bluejeans
