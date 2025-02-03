@@ -33,6 +33,7 @@
                     {{ item.title }}
                 </NuxtLink>
             </h3>
+
         </article>
 
 
