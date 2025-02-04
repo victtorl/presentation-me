@@ -17,7 +17,7 @@
           <div class="w-fit max-w-[300px]">
             <div class="max-w-[223px]">
               <h1 class="font-semibold text-18 text-dark-silver">
-                Contacto
+                Contácto
               </h1>
               <div class="flex gap-2 items-center relative group font-medium text-white hover:text-caribbean-green hover:underline transition-all duration-300 mt-3.5">
                 <span class="transition-all duration-300">
@@ -27,15 +27,20 @@
               </div>
             </div>
           </div>
-          <div class="w-fit max-w-[300px]">
+          <div class="w-fit max-w-[300px] z-10">
             <h1 class="font-semibold text-18 text-dark-silver">
-              Otras entradas
+              Secciones
             </h1>
-            <div class="flex border-b border-white/10">
+            <div class="flex border-b  border-white/10 ">
              <ul class="text-white">
-              <li>entrada 1</li>
-              <li>entrada 2</li>
-              <li>entrada 3</li>
+              <NuxtLink to="/blog"  >
+                  <li>Blogs</li>
+              </NuxtLink>
+
+              <NuxtLink to="/proyectos" >
+                <li>Proyectos</li>
+              </NuxtLink>
+           
              </ul>
             </div>
           </div>
