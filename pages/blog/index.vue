@@ -44,22 +44,22 @@ const articulos=ref([
   {
     title:'Metodos con arreglos (SPLICE)',
     slug:'/blog/metodos-con-arreglos-splice',
-    urlmixcontent:'https://mixcontent.netlify.app/blogs/metodos_con_arreglos-splice'
+    urlmixcontent:'https://mixcontent.netlify.app/blogs/metodos-con-arreglos-splice'
   },
   {
     title:'Metodos con arreglos (SLICE)',
     slug:'/blog/metodos-con-arreglos-slice',
-    urlmixcontent:'https://mixcontent.netlify.app/blogs/metodos_con_arreglos-slice'
+    urlmixcontent:'https://mixcontent.netlify.app/blogs/metodos-con-arreglos-slice'
   },
   {
     title:'Metodos con arreglos (FILTER)',
     slug:'/blog/metodos-con-arreglos-filter',
-    urlmixcontent:'https://mixcontent.netlify.app/blogs/metodos_con_arreglos-filter'
+    urlmixcontent:'https://mixcontent.netlify.app/blogs/metodos-con-arreglos-filter'
   },
   {
     title:'Metodos con arreglos (MAP)',
     slug:'/blog/metodos-con-arreglos-map',
-    urlmixcontent:'https://mixcontent.netlify.app/blogs/metodos_con_arreglos-map'
+    urlmixcontent:'https://mixcontent.netlify.app/blogs/metodos-con-arreglos-map'
   }, 
   
 ])
