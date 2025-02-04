@@ -8,14 +8,15 @@
         </h2>
     </div>
     <div class="grid max-w-2xl grid-cols-1 gap-8 mx-auto mt-8 auto-rows-fr lg:mx-0 lg:max-w-none lg:grid-cols-3 h-full ">
-        <article
+       
+       <article v-for="item in articulos"   @click="articuloST.setarticle(item)"
             class="relative flex flex-col justify-end px-4 pt-40 pb-4 overflow-hidden bg-gray-900 md:pt-28 isolate rounded-xl dark:shadow dark:shadow-gray-400/50">
             <img src="https://images.unsplash.com/photo-1677442135703-1787eea5ce01?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NzEyNjZ8MHwxfHNlYXJjaHw1fHxhaXxlbnwwfDB8fHwxNzEyNzUzMTQ4fDA&ixlib=rb-4.0.3&q=80&w=1080" alt="" class="absolute inset-0 object-cover w-full h-full -z-10">
             <div class="absolute inset-0 -z-10 bg-gradient-to-t from-gray-900 via-gray-900/40"></div>
             <div class="absolute inset-0 -z-10 rounded-xl ring-1 ring-inset ring-gray-900/10"></div>
 
-            <a class="text-lg font-semibold leading-6 text-white hover:text-teal-100" href="/blog/resultado-de-una-promesa">
-                Como usar el resultado de una promesa
+            <a class="text-lg font-semibold leading-6 text-white hover:text-teal-100" :href="item.slug">
+                {{ item.title }}
             </a>
         </article>
 
@@ -29,26 +30,38 @@
   </template>
   
   <script setup>
-  const posts = [
-    {
-      id: 1,
-      title: 'Boost your conversion rate',
-      href: 'boost-your-conversion-rate',
-      description:
-        'Illo sint voluptas. Error voluptates culpa eligendi. Hic vel totam vitae illo. Non aliquid explicabo necessitatibus unde. Sed exercitationem placeat consectetur nulla deserunt vel iusto corrupti dicta laboris incididunt.',
-      imageUrl:
-        'https://images.unsplash.com/photo-1496128858413-b36217c2ce36?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3603&q=80',
-      date: 'Mar 16, 2020',
-      datetime: '2020-03-16',
-      category: { title: 'Marketing', href: '#' },
-      author: {
-        name: 'Michael Foster',
-        role: 'Co-Founder / CTO',
-        href: '#',
-        imageUrl:
-          'https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
-      },
-    },
-    // More posts...
-  ]
+import { useBlogtStore } from '~/stores/blogs';
+
+
+const articuloST=useBlogtStore()  
+
+const articulos=ref([
+  {
+    title:'Como usar el resultado de una promesa',
+    slug:'/blog/resultado-de-una-promesa',
+    urlmixcontent:'https://mixcontent.netlify.app/blogs/resultado-de-una-promesa'
+  },
+  {
+    title:'Metodos con arreglos (SPLICE)',
+    slug:'/blog/metodos-con-arreglos-splice',
+    urlmixcontent:'https://mixcontent.netlify.app/blogs/metodos_con_arreglos-splice'
+  },
+  {
+    title:'Metodos con arreglos (SLICE)',
+    slug:'/blog/metodos-con-arreglos-slice',
+    urlmixcontent:'https://mixcontent.netlify.app/blogs/metodos_con_arreglos-slice'
+  },
+  {
+    title:'Metodos con arreglos (FILTER)',
+    slug:'/blog/metodos-con-arreglos-filter',
+    urlmixcontent:'https://mixcontent.netlify.app/blogs/metodos_con_arreglos-filter'
+  },
+  {
+    title:'Metodos con arreglos (MAP)',
+    slug:'/blog/metodos-con-arreglos-map',
+    urlmixcontent:'https://mixcontent.netlify.app/blogs/metodos_con_arreglos-map'
+  }, 
+  
+])
+
   </script>
