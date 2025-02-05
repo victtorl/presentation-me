@@ -1,6 +1,4 @@
 import { defineStore } from "pinia";
-import { ref, type Ref } from "vue";
-
 
 interface Iarticle{
 
