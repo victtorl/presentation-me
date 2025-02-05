@@ -50,78 +50,34 @@
             </h1>
             <div class="flex gap-[15px]">
               <a
-                href="#"
-                aria-label="facebook"
-                target="blank"
-                class="w-[40px] text-paragraph hover:text-main-black h-[40px] rounded-full flex justify-center items-center border border-dark-silver overflow-hidden relative before:inline-block before:absolute before:z-0 before:w-full before:h-full before:bg-caribbean-green before:scale-x-0 group hover:before:scale-x-100 before:origin-right hover:before:origin-left before:transition-transform before:ease-out before:duration-300"
-              >
-                <span class="relative z-10">
-                  <svg
-                    width="11"
-                    height="16"
-                    viewBox="0 0 11 16"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      d="M10.6667 0H8.55556C5.79413 0 3.55556 2.23857
-                        3.55556
-                        5V6.22222H0V9.77778H3.55556V16H7.11111V9.77778H10.6667V6.22222H7.11111V4.55556C7.11111
-                        4.00327 7.55883 3.55556 8.11111 3.55556H10.6667V0Z"
-                      fill="currentColor"
-                    />
-                  </svg>
-                </span>
-              </a>
-              <a
-                href="/587218452947927071"
-                aria-label="twitter"
-                target="blank"
-                class="w-[40px] h-[40px] text-dark-silver hover:text-main-black rounded-full flex justify-center items-center border border-dark-silver overflow-hidden relative before:inline-block before:absolute before:z-0 before:w-full before:h-full before:bg-caribbean-green before:scale-x-0 group hover:before:scale-x-100 before:origin-right hover:before:origin-left before:transition-transform before:ease-out before:duration-300"
-              >
-                <span class="relative z-10">
-                  <svg
-                    width="18"
-                    height="18"
-                    viewBox="2 4 20 17"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    
-                    <path  
-                      fillRule="evenodd"
-                      clipRule="evenodd"
-                      fill="currentColor" 
-                      d="M18.59 5.88997C17.36 5.31997 16.05 4.89997 14.67 4.65997C14.5 4.95997 14.3 5.36997 14.17 5.69997C12.71 5.47997 11.26 5.47997 9.83001 5.69997C9.69001 5.36997 9.49001 4.95997 9.32001 4.65997C7.94001 4.89997 6.63001 5.31997 5.40001 5.88997C2.92001 9.62997 2.25001 13.28 2.58001 16.87C4.23001 18.1 5.82001 18.84 7.39001 19.33C7.78001 18.8 8.12001 18.23 8.42001 17.64C7.85001 17.43 7.31001 17.16 6.80001 16.85C6.94001 16.75 7.07001 16.64 7.20001 16.54C10.33 18 13.72 18 16.81 16.54C16.94 16.65 17.07 16.75 17.21 16.85C16.7 17.16 16.15 17.42 15.59 17.64C15.89 18.23 16.23 18.8 16.62 19.33C18.19 18.84 19.79 18.1 21.43 16.87C21.82 12.7 20.76 9.08997 18.61 5.88997H18.59ZM8.84001 14.67C7.90001 14.67 7.13001 13.8 7.13001 12.73C7.13001 11.66 7.88001 10.79 8.84001 10.79C9.80001 10.79 10.56 11.66 10.55 12.73C10.55 13.79 9.80001 14.67 8.84001 14.67ZM15.15 14.67C14.21 14.67 13.44 13.8 13.44 12.73C13.44 11.66 14.19 10.79 15.15 10.79C16.11 10.79 16.87 11.66 16.86 12.73C16.86 13.79 16.11 14.67 15.15 14.67Z"
-                    ></path>
-                  </svg>
-
-
-                </span>
-              </a>
-              <a
-                href="#"
-                target="blank"
-                aria-label="instagram"
+                href="https://www.linkedin.com/in/victor-lara-b05816199/"
+                target="_blank"
+                aria-label="linkedin"
                 class="w-[40px] h-[40px] text-paragraph hover:text-main-black rounded-full flex justify-center items-center border border-dark-silver overflow-hidden relative before:inline-block before:absolute before:z-0 before:w-full before:h-full before:bg-caribbean-green before:scale-x-0 group hover:before:scale-x-100 before:origin-right hover:before:origin-left before:transition-transform before:ease-out before:duration-300"
               >
                 <span class="relative z-10">
-                  <svg
-                    width="17"
+
+
+
+                    <svg
+                     width="17"
                     height="17"
-                    viewBox="0 0 17 17"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
+                    viewBox="0 0 512 512"
+                    fill="currentColor" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"  xml:space="preserve" stroke="#FFFFFF"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <g id="7935ec95c421cee6d86eb22ecd125aef"> 
+                      <path 
                       fillRule="evenodd"
                       clipRule="evenodd"
-                      d="M5 0C2.23858 0 0 2.23858 0 5V11.33C0 14.0914 2.23858 16.33 5 16.33H11.33C14.0914 16.33 16.33 14.0914 16.33 11.33V5C16.33 2.23858 14.0914 0 11.33 0H5ZM13.0645 4.08222C13.5155 4.08222 13.881 3.71666 13.881 3.26572C13.881 2.81478 13.5155 2.44922 13.0645 2.44922C12.6136 2.44922 12.248 2.81478 12.248 3.26572C12.248 3.71666 12.6136 4.08222 13.0645 4.08222ZM12.247 8.16551C12.247 10.4202 10.4192 12.248 8.16453 12.248C5.90983 12.248 4.08203 10.4202 4.08203 8.16551C4.08203 5.91081 5.90983 4.08301 8.16453 4.08301C10.4192 4.08301 12.247 5.91081 12.247 8.16551ZM8.16532 10.6138C9.51814 10.6138 10.6148 9.51717 10.6148 8.16434C10.6148 6.81152 9.51814 5.71484 8.16532 5.71484C6.8125 5.71484 5.71582 6.81152 5.71582 8.16434C5.71582 9.51717 6.8125 10.6138 8.16532 10.6138Z"
+                      d="M116.504,500.219V170.654H6.975v329.564H116.504 L116.504,500.219z M61.751,125.674c38.183,0,61.968-25.328,61.968-56.953c-0.722-32.328-23.785-56.941-61.252-56.941 C24.994,11.781,0.5,36.394,0.5,68.722c0,31.625,23.772,56.953,60.53,56.953H61.751L61.751,125.674z M177.124,500.219 c0,0,1.437-298.643,0-329.564H286.67v47.794h-0.727c14.404-22.49,40.354-55.533,99.44-55.533 c72.085,0,126.116,47.103,126.116,148.333v188.971H401.971V323.912c0-44.301-15.848-74.531-55.497-74.531 c-30.254,0-48.284,20.38-56.202,40.08c-2.897,7.012-3.602,16.861-3.602,26.711v184.047H177.124L177.124,500.219z"
                       fill="currentColor"
-                    />
-                  </svg>
+                      > 
+
+                      </path> </g> </g></svg>
+
                 </span>
+
+                
               </a>
+
               <a
                 href="https://github.com/victtorl"
                 aria-label="dribble"
@@ -152,6 +108,83 @@
 
                 </span>
               </a>
+
+              <a
+                href="https://discord.gg/dnggGHxb"
+                aria-label="discord"
+                target="_blank"
+                class="w-[40px] h-[40px] text-dark-silver hover:text-main-black rounded-full flex justify-center items-center border border-dark-silver overflow-hidden relative before:inline-block before:absolute before:z-0 before:w-full before:h-full before:bg-caribbean-green before:scale-x-0 group hover:before:scale-x-100 before:origin-right hover:before:origin-left before:transition-transform before:ease-out before:duration-300"
+              >
+                <span class="relative z-10">
+                  <svg
+                    width="18"
+                    height="18"
+                    viewBox="2 4 20 17"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    
+                    <path  
+                      fillRule="evenodd"
+                      clipRule="evenodd"
+                      fill="currentColor" 
+                      d="M18.59 5.88997C17.36 5.31997 16.05 4.89997 14.67 4.65997C14.5 4.95997 14.3 5.36997 14.17 5.69997C12.71 5.47997 11.26 5.47997 9.83001 5.69997C9.69001 5.36997 9.49001 4.95997 9.32001 4.65997C7.94001 4.89997 6.63001 5.31997 5.40001 5.88997C2.92001 9.62997 2.25001 13.28 2.58001 16.87C4.23001 18.1 5.82001 18.84 7.39001 19.33C7.78001 18.8 8.12001 18.23 8.42001 17.64C7.85001 17.43 7.31001 17.16 6.80001 16.85C6.94001 16.75 7.07001 16.64 7.20001 16.54C10.33 18 13.72 18 16.81 16.54C16.94 16.65 17.07 16.75 17.21 16.85C16.7 17.16 16.15 17.42 15.59 17.64C15.89 18.23 16.23 18.8 16.62 19.33C18.19 18.84 19.79 18.1 21.43 16.87C21.82 12.7 20.76 9.08997 18.61 5.88997H18.59ZM8.84001 14.67C7.90001 14.67 7.13001 13.8 7.13001 12.73C7.13001 11.66 7.88001 10.79 8.84001 10.79C9.80001 10.79 10.56 11.66 10.55 12.73C10.55 13.79 9.80001 14.67 8.84001 14.67ZM15.15 14.67C14.21 14.67 13.44 13.8 13.44 12.73C13.44 11.66 14.19 10.79 15.15 10.79C16.11 10.79 16.87 11.66 16.86 12.73C16.86 13.79 16.11 14.67 15.15 14.67Z"
+                    ></path>
+                  </svg>
+
+
+                </span>
+              </a>
+
+              <a
+                href="#"
+                aria-label="facebook"
+                target="blank"
+                class="w-[40px] text-paragraph hover:text-main-black h-[40px] rounded-full flex justify-center items-center border border-dark-silver overflow-hidden relative before:inline-block before:absolute before:z-0 before:w-full before:h-full before:bg-caribbean-green before:scale-x-0 group hover:before:scale-x-100 before:origin-right hover:before:origin-left before:transition-transform before:ease-out before:duration-300"
+              >
+                <span class="relative z-10">
+                  <svg
+                    width="11"
+                    height="16"
+                    viewBox="0 0 11 16"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M10.6667 0H8.55556C5.79413 0 3.55556 2.23857
+                        3.55556
+                        5V6.22222H0V9.77778H3.55556V16H7.11111V9.77778H10.6667V6.22222H7.11111V4.55556C7.11111
+                        4.00327 7.55883 3.55556 8.11111 3.55556H10.6667V0Z"
+                      fill="currentColor"
+                    />
+                  </svg>
+                </span>
+              </a>
+
+              <a
+                href="#"
+                target="_blank"
+                aria-label="instagram"
+                class="w-[40px] h-[40px] text-paragraph hover:text-main-black rounded-full flex justify-center items-center border border-dark-silver overflow-hidden relative before:inline-block before:absolute before:z-0 before:w-full before:h-full before:bg-caribbean-green before:scale-x-0 group hover:before:scale-x-100 before:origin-right hover:before:origin-left before:transition-transform before:ease-out before:duration-300"
+              >
+                <span class="relative z-10">
+                  <svg
+                    width="17"
+                    height="17"
+                    viewBox="0 0 17 17"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      fillRule="evenodd"
+                      clipRule="evenodd"
+                      d="M5 0C2.23858 0 0 2.23858 0 5V11.33C0 14.0914 2.23858 16.33 5 16.33H11.33C14.0914 16.33 16.33 14.0914 16.33 11.33V5C16.33 2.23858 14.0914 0 11.33 0H5ZM13.0645 4.08222C13.5155 4.08222 13.881 3.71666 13.881 3.26572C13.881 2.81478 13.5155 2.44922 13.0645 2.44922C12.6136 2.44922 12.248 2.81478 12.248 3.26572C12.248 3.71666 12.6136 4.08222 13.0645 4.08222ZM12.247 8.16551C12.247 10.4202 10.4192 12.248 8.16453 12.248C5.90983 12.248 4.08203 10.4202 4.08203 8.16551C4.08203 5.91081 5.90983 4.08301 8.16453 4.08301C10.4192 4.08301 12.247 5.91081 12.247 8.16551ZM8.16532 10.6138C9.51814 10.6138 10.6148 9.51717 10.6148 8.16434C10.6148 6.81152 9.51814 5.71484 8.16532 5.71484C6.8125 5.71484 5.71582 6.81152 5.71582 8.16434C5.71582 9.51717 6.8125 10.6138 8.16532 10.6138Z"
+                      fill="currentColor"
+                    />
+                  </svg>
+                </span>
+              </a>
+     
             </div>
           </div>
         </div>
