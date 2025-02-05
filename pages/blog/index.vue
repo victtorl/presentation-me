@@ -61,7 +61,7 @@ const articulos=ref([
   {
     title:'Metodos con arreglos (MAP)',
     slug:'/blog/metodos-con-arreglos-map',
-    urlmixcontent:'https://mixcontent.netlify.app/blogs/metodos-conarreglos-map'
+    urlmixcontent:'https://mixcontent.netlify.app/blogs/metodos-con-arreglos-map'
   }, 
   
 ])
