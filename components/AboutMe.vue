@@ -82,7 +82,7 @@ function activateItem(item){
 <template>
 <section
       id="about"
-      class="pt-[70px] md:pt-[175px] max-w-full overflow-hidden px-6 2xl:px-0"
+      class="py-[70px] md:py-[175px] max-w-full overflow-hidden px-6 2xl:px-0"
     >
       <div class="relative flex items-center justify-center w-full mx-auto theme-container h-fit">
         <img
@@ -1016,10 +1016,15 @@ function activateItem(item){
             </div>
           </div>
           <div class="col-span-4 h-fit">
-            <img
+            <!-- <img
               src="/assets/images/home-ten/h10-about-img.png"
               alt=""
               class=""
+            /> -->
+            <img
+              src="/assets/images/porta/perfillink.png"
+              alt=""
+              class="w-[440px] h-[592px] border-[3px] rounded-md p-1 border-[#00FA9A]"
             />
           </div>
         </div>
