@@ -116,7 +116,7 @@ const v$ = useVuelidate(rules, state);
 const sendToWhatsApp=()=> {
     v$.value.$touch();
     if (!v$.value.$error) {
-      let message = ` *Nombre: ${state.name}* \n *Correo: ${state.email}*\n *Mensaje: ${state.message}*\n \n`;
+      let message = ` *Nombre: ${state.name}* \n *Correo: ${state.email}* \n *Mensaje: ${state.message}* \n \n`;
 
       const encodedMessage = encodeURIComponent(message);
       const phoneNumber = "+51982043391"; // Número con código de país  // 
