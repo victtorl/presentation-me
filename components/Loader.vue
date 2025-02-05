@@ -1,5 +1,5 @@
 <template>
-      <div  class=" fullscreenfixed h-full absolute w-[100vw] z-40 flex justify-center items-center bg-orange ">
+      <div  class=" fullscreenfixed h-full absolute w-[100vw] z-40 flex justify-center items-center bg-[#00FA9A] ">
                 <div class="loader" ></div>
       </div>
 </template>
