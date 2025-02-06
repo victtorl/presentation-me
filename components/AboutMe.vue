@@ -1015,7 +1015,7 @@ function activateItem(item){
               </div>
             </div>
           </div>
-          <div class="col-span-4 h-fit">
+          <div class="col-span-12 md:col-span-4 h-fit ">
             <!-- <img
               src="/assets/images/home-ten/h10-about-img.png"
               alt=""
@@ -1024,7 +1024,7 @@ function activateItem(item){
             <img
               src="/assets/images/porta/perfillink.png"
               alt=""
-              class="w-[440px] h-[592px] border-[3px] rounded-md p-1 border-[#00FA9A]"
+              class="  md:w-[440px] h-[592px] border-[3px] rounded-md p-1 border-[#00FA9A]"
             />
           </div>
         </div>
