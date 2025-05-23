@@ -12,7 +12,7 @@
        <article v-for="item in articulos"   @click="articuloST.setarticle(item)"
             class="relative flex flex-col justify-end px-4 pt-40 pb-4 overflow-hidden bg-gray-900 md:pt-28 isolate rounded-xl dark:shadow dark:shadow-gray-400/50">
             <NuxtLink :to="item.slug" >
-            <img src="https://images.unsplash.com/photo-1677442135703-1787eea5ce01?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NzEyNjZ8MHwxfHNlYXJjaHw1fHxhaXxlbnwwfDB8fHwxNzEyNzUzMTQ4fDA&ixlib=rb-4.0.3&q=80&w=1080" alt="" class="absolute inset-0 object-cover w-full h-full -z-10">
+            <img :src="item.img" alt="" class="absolute inset-0 object-cover w-full h-full -z-10">
             <div class="absolute inset-0 -z-10 bg-gradient-to-t from-gray-900 via-gray-900/40"></div>
             <div class="absolute inset-0 -z-10 rounded-xl ring-1 ring-inset ring-gray-900/10"></div>
 
@@ -34,32 +34,44 @@
   <script setup>
 import { useBlogtStore } from '~/stores/blogs';
 
+// imagees
+import promesas from '~/assets/images/blog/promesas.png'
+import map from '~/assets/images/blog/map.png'
+import slice from '~/assets/images/blog/slice.png'
+import splice from '~/assets/images/blog/splice.png'
+import filter from '~/assets/images/blog/filter.png'
+
 
 const articuloST=useBlogtStore()  
 
 const articulos=ref([
   {
     title:'Como usar el resultado de una promesa',
+    img:promesas,
     slug:'/blog/resultado-de-una-promesa',
     urlmixcontent:'https://mixcontent.netlify.app/blogs/resultado-de-una-promesa'
   },
   {
     title:'Metodos con arreglos (SPLICE)',
+    img:splice,
     slug:'/blog/metodos-con-arreglos-splice',
     urlmixcontent:'https://mixcontent.netlify.app/blogs/metodos-con-arreglos-splice'
   },
   {
     title:'Metodos con arreglos (SLICE)',
+    img:slice,
     slug:'/blog/metodos-con-arreglos-slice',
     urlmixcontent:'https://mixcontent.netlify.app/blogs/metodos-con-arreglos-slice'
   },
   {
     title:'Metodos con arreglos (FILTER)',
+    img:filter,
     slug:'/blog/metodos-con-arreglos-filter',
     urlmixcontent:'https://mixcontent.netlify.app/blogs/metodos-con-arreglos-filter'
   },
   {
     title:'Metodos con arreglos (MAP)',
+    img:map,
     slug:'/blog/metodos-con-arreglos-map',
     urlmixcontent:'https://mixcontent.netlify.app/blogs/metodos-con-arreglos-map'
   }, 
