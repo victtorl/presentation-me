@@ -148,52 +148,7 @@ function activateItem(item){
                     Manejo frameworks de frontend como React y Vue, lo que me permite construir
                     interfaces de usuario eficientes y dinámicas. Mi enfoque es crear soluciones elegantes y optimizadas para usuarios finales.
                   </p>
-                  <!-- <div class="flex pt-10 gap-[100px] pb-10">
-                    <div class="">
-                      <h1 class="font-semibold text-18 text-caribbean-green">
-                        Address
-                      </h1>
-                      <p class="font-medium text-black">
-                        55 Street, 2nd block, 3rd Floor
-                      </p>
-                      <p class="font-medium text-black">
-                        Melbourne, Australia
-                      </p>
-                    </div>
-                    <div class="">
-                      <h1 class="font-semibold text-18 text-caribbean-green">
-                        Contact
-                      </h1>
-                      <p class="font-medium text-black">
-                        infoquland@gmail.com
-                      </p>
-                      <p class="font-medium text-black">+880 456 852 99</p>
-                    </div>
-                  </div> -->
-                  <!-- <Link href="/services" class="pointer-events-auto">
-                    <div class="home-two-btn-bg group bg-transparent border-white/10 py-[15px] w-fit before:bg-caribbean-green after:bg-caribbean-green hover:border-caribbean-green">
-                      <span class="relative z-10 text-base font-semibold text-black transition-all duration-300 group-hover:text-main-black font-inter">
-                        Contact Me
-                      </span>
-                      <svg
-                        class="relative z-10"
-                        width="7"
-                        height="12"
-                        viewBox="0 0 7 12"
-                        fill="none"
-                        xmlns="http://www.w3.org/2000/svg"
-                      >
-                        <path
-                          class="transition-all duration-300 group-hover:stroke-main-black stroke-main-black"
-                          d="M1.10254 10.5L4.89543 6.70711C5.22877 6.37377 5.39543 6.20711 5.39543 6C5.39543 5.79289 5.22877 5.62623 4.89543 5.29289L1.10254 1.5"
-                          stroke="white"
-                          strokeWidth="1.5"
-                          strokeLinecap="round"
-                          strokeLinejoin="round"
-                        />
-                      </svg>
-                    </div>
-                  </Link> -->
+            
                 </div>
 
                 <div v-else-if="selectedId === 2" id="experience" class="relative max-w-full min-w-full">
@@ -468,60 +423,52 @@ function activateItem(item){
                       <div class="w-full">
                         <div class="flex justify-between w-full text-black">
                           <p class="">JAVA</p>
-                          <p class="">65%</p>
                         </div>
-                        <div class="w-full h-0.5 bg-white/20 relative before:block before:h-full before:w-[65%] before:bg-caribbean-green mt-3"></div>
+                        <div class="w-full h-0.5 bg-white/20 relative before:block before:h-full before:w-[100%] before:bg-caribbean-green mt-3"></div>
                       </div>
                       <div class="w-full">
                         <div class="flex justify-between w-full text-black">
                           <p class="">JavaScript</p>
-                          <p class="">80%</p>
                         </div>
-                        <div class="w-full h-0.5 bg-white/20 relative before:block before:h-full before:w-[80%] before:bg-caribbean-green mt-3"></div>
+                        <div class="w-full h-0.5 bg-white/20 relative before:block before:h-full before:w-[100%] before:bg-caribbean-green mt-3"></div>
                       </div>
                       <div class="w-full">
                         <div class="flex justify-between w-full text-black">
-                          <p class="">Spring</p>
-                          <p class="">40%</p>
+                          <p class="">PHP</p>
                         </div>
-                        <div class="w-full h-0.5 bg-white/20 relative before:block before:h-full before:w-[40%] before:bg-caribbean-green mt-3"></div>
+                        <div class="w-full h-0.5 bg-white/20 relative before:block before:h-full before:w-[100%] before:bg-caribbean-green mt-3"></div>
                       </div>
                       <div class="w-full">
                         <div class="flex justify-between w-full text-black">
-                          <p class="">Vue</p>
-                          <p class="">76%</p>
+                          <p class="">TypeScript</p>
                         </div>
-                        <div class="w-full h-0.5 bg-white/20 relative before:block before:h-full before:w-[76%] before:bg-caribbean-green mt-3"></div>
+                        <div class="w-full h-0.5 bg-white/20 relative before:block before:h-full before:w-[100%] before:bg-caribbean-green mt-3"></div>
                       </div>
                     </div>
                     <div class="w-full flex flex-col gap-[30px]">
                       <div class="w-full">
                         <div class="flex justify-between w-full text-black">
-                          <p class="">React</p>
-                          <p class="">70%</p>
+                          <p class="">Spring boot  |  JUnit</p>
                         </div>
-                        <div class="w-full h-0.5 bg-white/20 relative before:block before:h-full before:w-[70%] before:bg-caribbean-green mt-3"></div>
+                        <div class="w-full h-0.5 bg-white/20 relative before:block before:h-full before:w-[100%] before:bg-caribbean-green mt-3"></div>
                       </div>
                       <div class="w-full">
                         <div class="flex justify-between w-full text-black">
-                          <p class="">C++</p>
-                          <p class="">72%</p>
+                          <p class="">Vue  |  React  |  Nuxt</p>
                         </div>
-                        <div class="w-full h-0.5 bg-white/20 relative before:block before:h-full before:w-[72%] before:bg-caribbean-green mt-3"></div>
+                        <div class="w-full h-0.5 bg-white/20 relative before:block before:h-full before:w-[100%] before:bg-caribbean-green mt-3"></div>
                       </div>
                       <div class="w-full">
                         <div class="flex justify-between w-full text-black">
-                          <p class="">HTML CSS</p>
-                          <p class="">75%</p>
+                          <p class="">SQL</p>
                         </div>
-                        <div class="w-full h-0.5 bg-white/20 relative before:block before:h-full before:w-[75%] before:bg-caribbean-green mt-3"></div>
+                        <div class="w-full h-0.5 bg-white/20 relative before:block before:h-full before:w-[100%] before:bg-caribbean-green mt-3"></div>
                       </div>
                       <div class="w-full">
                         <div class="flex justify-between w-full text-black">
-                          <p class="">Entornos Linux</p>
-                          <p class="">65%</p>
+                          <p class="">React Native</p>
                         </div>
-                        <div class="w-full h-0.5 bg-white/20 relative before:block before:h-full before:w-[65%] before:bg-caribbean-green mt-3"></div>
+                        <div class="w-full h-0.5 bg-white/20 relative before:block before:h-full before:w-[100%] before:bg-caribbean-green mt-3"></div>
                       </div>
                     </div>
                   </div>

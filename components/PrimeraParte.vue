@@ -145,52 +145,11 @@
                 </svg>
               </div>
             </div>
-            <!-- <div class="">
-              <p
-                class="text-white text-base leading-[30px] font-semibold"
-                data-scroll-qs="scroll"
-                data-count-qs="5"
-                data-type-qs="m+ Global Customer"
-                data-speed-qs="1000"
-              >
-                5m+ Global Customer
-              </p>
-              <div class="relative flex mt-4 cursor-pointer">
-                <img
-                  src="/assets/images/home-two/customer/1.webp"
-                  alt=""
-                  class="w-[25px] h-[25px] object-cover rounded-full overflow-hidden hover:z-10 transition-all duration-300"
-                />
-                <img
-                  src="/assets/images/home-two/customer/2.webp"
-                  alt=""
-                  class="w-[25px] h-[25px] object-cover rounded-full overflow-hidden relative -left-1 hover:z-10 transition-all duration-300"
-                />
-                <img
-                  src="/assets/images/home-two/customer/3.webp"
-                  alt=""
-                  class="w-[25px] h-[25px] object-cover rounded-full overflow-hidden relative -left-2 hover:z-10 transition-all duration-300"
-                />
-                <img
-                  src="/assets/images/home-two/customer/4.webp"
-                  alt=""
-                  class="w-[25px] h-[25px] object-cover rounded-full overflow-hidden relative -left-3 hover:z-10 transition-all duration-300"
-                />
-                <img
-                  src="/assets/images/home-two/customer/5.webp"
-                  alt=""
-                  class="w-[25px] h-[25px] object-cover rounded-full overflow-hidden relative -left-4 hover:z-10 transition-all duration-300"
-                />
-              </div>
-            </div> -->
+        
           </div>
         </div>
 
-        <!-- <img
-          src="/assets/images/home-two/hero-img.webp"
-          alt="img"
-          class="relative bottom-0 right-0 self-end col-span-7 2xl:-right-52 moving-h2-hero-main-img"
-        /> -->
+
         <img
           src="/assets/images/porta/code-programing.jpg"
           alt="img"
