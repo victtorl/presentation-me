@@ -10,7 +10,7 @@
     <div class="grid max-w-2xl grid-cols-1 gap-8 mx-auto mt-8 auto-rows-fr lg:mx-0 lg:max-w-none lg:grid-cols-3 h-full ">
        
        <article v-for="item in articulos"   @click="articuloST.setarticle(item)"
-            class="relative flex flex-col justify-end px-4 pt-40 pb-4 overflow-hidden bg-gray-900 md:pt-28 isolate rounded-xl dark:shadow dark:shadow-gray-400/50">
+            class="relative flex flex-col justify-end px-4 pt-40  pb-4 overflow-hidden bg-gray-900  isolate rounded-xl dark:shadow dark:shadow-gray-400/50">
             <NuxtLink :to="item.slug" >
             <img :src="item.img" alt="" class="absolute inset-0 object-cover w-full h-full -z-10">
             <div class="absolute inset-0 -z-10 bg-gradient-to-t from-gray-900 via-gray-900/40"></div>
